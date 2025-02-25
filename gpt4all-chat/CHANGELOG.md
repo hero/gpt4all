@@ -4,11 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [Unreleased]
+## [3.10.0] - 2025-02-24
 
 ### Added
 - Whitelist Granite (non-MoE) model architecture (by [@ThiloteE](https://github.com/ThiloteE) in [#3487](https://github.com/nomic-ai/gpt4all/pull/3487))
 - Add support for CUDA compute 5.0 GPUs such as the GTX 750 ([#3499](https://github.com/nomic-ai/gpt4all/pull/3499))
+- Add a Remote Providers tab to the Add Model page ([#3506](https://github.com/nomic-ai/gpt4all/pull/3506))
 
 ### Changed
 - Substitute prettier default templates for OLMoE 7B 0924/0125 and Granite 3.1 3B/8B (by [@ThiloteE](https://github.com/ThiloteE) in [#3471](https://github.com/nomic-ai/gpt4all/pull/3471))
@@ -18,6 +19,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Fix several potential crashes ([#3465](https://github.com/nomic-ai/gpt4all/pull/3465))
 - Fix visual spacing issues with deepseek models ([#3470](https://github.com/nomic-ai/gpt4all/pull/3470))
 - Add missing strings to Italian translation (by [@Harvester62](https://github.com/Harvester62) in [#3496](https://github.com/nomic-ai/gpt4all/pull/3496))
+- Update Simplified Chinese translation (by [@Junior2Ran](https://github.com/Junior2Ran) in [#3467](https://github.com/nomic-ai/pull/3467))
 
 ## [3.9.0] - 2025-02-04
 
@@ -310,7 +312,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Fix several Vulkan resource management issues ([#2694](https://github.com/nomic-ai/gpt4all/pull/2694))
 - Fix crash/hang when some models stop generating, by showing special tokens ([#2701](https://github.com/nomic-ai/gpt4all/pull/2701))
 
-[Unreleased]: https://github.com/nomic-ai/gpt4all/compare/v3.9.0...HEAD
+[3.10.0]: https://github.com/nomic-ai/gpt4all/compare/v3.9.0...v3.10.0
 [3.9.0]: https://github.com/nomic-ai/gpt4all/compare/v3.8.0...v3.9.0
 [3.8.0]: https://github.com/nomic-ai/gpt4all/compare/v3.7.0...v3.8.0
 [3.7.0]: https://github.com/nomic-ai/gpt4all/compare/v3.6.1...v3.7.0
